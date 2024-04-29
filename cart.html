@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxymoron TI Login</title>
+    <link rel="shortcut icon" href="img/Logo nuevo.png" type="image/x-icon">
+</head>
+<body>
+    <header>    <!--Encabezado institucional-->
+        <img src="img/Logo nuevo.png" alt="Oxymoron TI Logo" height="150 px" width="150 px">    <!--logo institucional-->
+        <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#071952" class="bi bi-house" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+          </svg></a>    <!--Icono de home-->
+    </header>
+        <section>   <!--Carrito-->
+            <h1>Mi carrito</h1>
+            <form>
+                <picture>   <!--Esta imagen debe traerse desde la pagina de compras, debe haber otros productos relacionados que se puedan agregar al carrito-->
+                <img src="img/products-template.png" alt="productimg" width="150px" height="150px">
+                </picture>
+                <input type="image" src="img/trash.svg" alt="Eliminar productos">
+                <input type="number" name="rango" id="rango" alt="rango de productos">
+                <input type="image" src="img/plus-circle.svg" alt="Agregar producto" width="36px" height="36px">
+                <br>
+                <input type="button" value="ir a pagar">
+                <input type="reset" value="Vaciar carrito">
+                <br>
+                <p>Elige tu medio de pago</p>
+                <label for="mediosDePago">Medios de pago</label>
+                <select id="mediosDePago" name="mediosDePago">
+                    <option value="Paypal">Paypal</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Mastercard">Mastercard</option>
+                    <option value="Cash">Efectivo</option>
+                    <option value="WireTransfer">Transferencia Bancaria</option>
+                </select>
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#071952" class="bi bi-paypal" viewBox="0 0 16 16">
+                        <path d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.35.35 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91q.57-.403.993-1.005a4.94 4.94 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.7 2.7 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.7.7 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016q.326.186.548.438c.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.87.87 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.35.35 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32z"/>
+                      </svg></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#071952" class="bi bi-credit-card" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                        <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                      </svg></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#071952" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                        <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+                      </svg></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#071952" class="bi bi-bank" viewBox="0 0 16 16">
+                        <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z"/>
+                      </svg></li>
+                </ul>
+                <!--En esta seccion debe configurarse JS para que muestre los valores de la transacción-->
+                <h1>$25.10</h1>
+                <h2>Total a pagar</h2>
+                <h2>$20.23</h2>
+                <h2>Subtotal</h2>
+                <h2>$4.77</h2>
+                <h2>impuestos</h2>
+                <h2>$0</h2>
+                <h2>Costos de envio</h2>
+            </form>
+        </section>
+</body>
+</html>
