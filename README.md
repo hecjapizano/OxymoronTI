@@ -1,3 +1,3 @@
-# OxymoronTI
-Proyecto Oxymoron TI Ecommerce
-Pagina dedicada al proyecto oxymoron, consiste en un sitio web de ecommmerce para comercializar productos y servicios tecnologicos.
+# Oxymoron TI
+Proyecto Oxymoron TI 
+Pagina dedicada al proyecto Oxymoron, consiste en una landing page corporativa para ofrecer y comercializar soluciones tecnologicas y todo lo relacionado al mundo del desarrollo de software.
