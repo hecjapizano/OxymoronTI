@@ -2,7 +2,7 @@
 
   # Oxymoron
 
-  ![web dev icon](https://static-00.iconduck.com/assets.00/web-developer-illustration-128x118-c41vu2y7.png)
+  ![web dev icon](view-source:https://static-00.iconduck.com/assets.00/code-icon-144x116-2i3bizts.png)
   
   [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
   [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
