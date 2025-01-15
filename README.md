@@ -1,11 +1,11 @@
 <div align="center">
-# Oxymoron TI
-  
-![Web dev icon](https://icon-library.com/images/web-dev-icon/web-dev-icon-21.jpg)
+ # Oxymoron TI
 
-[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
-[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
+  ![web dev icon](https://icon-library.com/images/web-dev-icon/web-dev-icon-21.jpg)
+  
+  [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+  [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
+  [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
 </div>
 
 Proyecto Oxymoron TI 
