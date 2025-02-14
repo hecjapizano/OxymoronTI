@@ -1,26 +1,88 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oxymoron TI Login</title>
-    <link rel="shortcut icon" href="img/Logo nuevo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Log In | Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/login.css">
 </head>
+<nav class="navbar">
+    <a href="#" class="logo">Oxymoron TI.</a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">My Cart</a></li>
+        <li class="active"><a href="#" >Log in</a></li>
+    </ul>
+</nav>
 <body>
-    <header>    <!--Encabezado institucional-->
-        <img src="img/Logo nuevo.png" alt="Oxymoron TI Logo" height="150 px" width="150 px">
-        <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#071952" class="bi bi-house" viewBox="0 0 16 16">
-            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
-          </svg></a>
-    </header>
-        <section>   <!--Formulario de inicio de sesión-->
-            <h1>Inicia sesión</h1>
-            <form>
-                <input type="email" name="personalemail" id="personalemail" placeholder="Correo electronico personal" required/>
-                <input type="password" name="password" id="password" placeholder="Contrasseña" required>
-                <input type="submit" value="Iniciar sesión">
-                <a href="signup.html"><input type="button" value="Registrarse"></a>
-            </form>
-        </section>
+
+
+<div class="container" id="container">
+    <div class="form-container sign-up">
+        <form>
+            <h1>Create an Account.</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <span>or use your email</span>
+            <label>
+                <input type="text" placeholder="Name">
+            </label>
+            <label>
+                <input type="email" placeholder="Email">
+            </label>
+            <label>
+                <input type="password" placeholder="Password">
+            </label>
+            <button>Sign Up</button>
+        </form>
+    </div>
+    <div class="form-container sign-in">
+        <form>
+            <h1>Sign In.</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <span>or use your email & password</span>
+            <label>
+                <input type="email" placeholder="Email">
+            </label>
+            <label>
+                <input type="password" placeholder="Password">
+            </label>
+            <a href="#">Forgot your password?</a>
+            <button>Sign In</button>
+        </form>
+    </div>
+    <div class="toggle-container">
+        <div class="toggle">
+            <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please log in with your personal info</p>
+                <button class="hidden" id="login">Sign In</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Hello Friend!</h1>
+                <p>Enter your personal details and start journey with us</p>
+                <button class="hidden" id="register">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="scripts/login.js"></script>
 </body>
 </html>
